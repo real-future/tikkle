@@ -9,7 +9,7 @@ import UIKit
 
 class TikkleListTableViewCell: UITableViewCell {
     
-    //요소 아울렛
+    //MARK: -TikkleListPage TableViewCell 스토리보드 요소들 연결
     @IBOutlet weak var tikkleImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var percentLabel: UILabel!
